@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Figtree;
+    src: url(./fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree-Bold;
+    src: url(./fonts/Figtree-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    padding: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0 0.1rem #000;
+}
+
+.card #ilustracao {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card h4 {
+    font-size: 13px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 0.3rem 0.2rem;
+    width: 5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.card #published {
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+
+.card h1 {
+    font-size: 24px;
+    font-family: Figtree-Bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.card h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.card #description {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.pessoa {
+    display: flex;
+    align-items: center;
+}
+
+.pessoa img {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.pessoa h5 {
+    font-family: Figtree-Bold;
+    font-size: 12.8px;
+}
